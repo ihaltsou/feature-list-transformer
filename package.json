@@ -1,0 +1,45 @@
+{
+  "name": "feature-list-transformer",
+  "description": "Generate a command line application for node.js.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ScienceSoft/feature-list-transformer",
+  "author": {
+    "name": "Ihar Haltsou <ihaltsou@scnsoft.com>",
+    "url": "https://github.com/null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ScienceSoft/feature-list-transformer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScienceSoft/feature-list-transformer/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ScienceSoft/feature-list-transformer/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "command line"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "feature-list-convertor": "./bin/feature-list-convertor"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha -R test"
+  },
+  "dependencies": {
+    "minimist": "~0.0.8",
+    "verbalize": "~0.1.1"
+  },
+  "devDependencies": {
+    "verb": "~0.2.0"
+  }
+}
